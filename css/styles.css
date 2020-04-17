@@ -5,10 +5,19 @@ body {
 #title {
   background-color: #ff4c68;
   color: #fff;
+  position: relative;
+  z-index: 1;
 }
-
+/* image */
+.title-image {
+  width: 60%;
+  transform: rotate(35deg);
+  position:absolute;
+  z-index:-2;
+  right:30%;
+}
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
   /*Top&bottom: 3%; Left& Right: 15th*/
 }
 
@@ -37,11 +46,7 @@ body {
   margin: 5% 3% 5% 0;
 }
 
-/* image */
-.title-image {
-  width: 50%;
-  transform: rotate(25deg);
-}
+
 
 /************fonts**********************/
 .bold-h1 {
@@ -66,7 +71,9 @@ p{
 /* Features Sections */
 #features{
   padding: 7% 15% ;
-
+  background-color: white;
+  position: relative;
+  z-index: 1;
 }
 .product-features {
   text-align: center;
