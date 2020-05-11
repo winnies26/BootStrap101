@@ -1,1 +1,1 @@
-TinDog website built with Bootstrap 4 🐶
+Bunny Tinder Website built with Bootstrap 4 🐰
